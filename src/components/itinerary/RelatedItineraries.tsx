@@ -10,6 +10,12 @@ const itineraries = [
     href: "/1-day-porto-itinerary",
   },
   {
+    duration: 2,
+    title: "The Perfect Weekend",
+    description: "Historic center, wine cellars, and the coast in 48 hours.",
+    href: "/2-day-porto-itinerary",
+  },
+  {
     duration: 3,
     title: "The Classic Route",
     description: "The ideal Porto trip for most travelers.",

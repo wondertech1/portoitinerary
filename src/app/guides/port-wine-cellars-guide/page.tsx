@@ -38,6 +38,13 @@ const jsonLd = {
   description:
     "A comprehensive guide to port wine cellars in Vila Nova de Gaia, with tour comparisons and recommendations.",
   url: "https://portoitinerary.com/guides/port-wine-cellars-guide",
+  datePublished: "2026-03-22",
+  dateModified: "2026-04-23",
+  author: {
+    "@type": "Person",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com/about",
+  },
   publisher: {
     "@type": "Organization",
     name: "Porto Itinerary",
@@ -47,22 +54,22 @@ const jsonLd = {
 
 const related = [
   {
-    title: "Port Wine for Beginners",
-    description: "Types, tasting tips, and what to buy.",
-    href: "/guides/port-wine-tasting-beginners",
+    title: "Best Port Wine Bars",
+    description: "Prefer tasting without a tour? 6 bars ranked.",
+    href: "/guides/best-port-wine-bars",
     category: "Wine Guide",
   },
   {
-    title: "Where to Eat in Porto",
-    description: "A local's guide to the best food by neighborhood.",
-    href: "/guides/where-to-eat-porto",
-    category: "Food Guide",
+    title: "Douro Valley Day Trip",
+    description: "Visit the vineyards where port grapes grow.",
+    href: "/guides/douro-valley-day-trip",
+    category: "Wine Guide",
   },
   {
-    title: "3-Day Porto Itinerary",
-    description: "Day 2 includes the perfect wine cellar visit.",
-    href: "/3-day-porto-itinerary",
-    category: "Itinerary",
+    title: "Port Wine for Beginners",
+    description: "Ruby vs Tawny, how to taste, and what to buy.",
+    href: "/guides/port-wine-tasting-beginners",
+    category: "Wine Guide",
   },
 ];
 
@@ -70,6 +77,21 @@ export default function WineCellarsGuidePage() {
   return (
     <>
       <JsonLd data={jsonLd} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Best Port Wine Cellars in Porto — Ranked",
+          itemListOrder: "https://schema.org/ItemListOrderDescending",
+          numberOfItems: 8,
+          itemListElement: wineCellars.map((cellar) => ({
+            "@type": "ListItem",
+            position: cellar.rank,
+            name: cellar.name,
+            url: `https://portoitinerary.com/guides/port-wine-cellars-guide#${cellar.name.toLowerCase().replace(/['\s]+/g, "-")}`,
+          })),
+        }}
+      />
       <Navigation />
       <main>
         <GuideHero
@@ -78,7 +100,6 @@ export default function WineCellarsGuidePage() {
           subtitle="Complete guide to Gaia's best tours — 8 cellars compared so you can pick the right one."
           lastVerified="March 2026"
           breadcrumbItems={[
-            { label: "Guides", href: "/guides/port-wine-cellars-guide" },
             { label: "Wine Cellars" },
           ]}
         />
@@ -126,7 +147,11 @@ export default function WineCellarsGuidePage() {
               Visit two cellars maximum in a day. One for a full tour
               (Taylor&apos;s or Graham&apos;s), and one for a different style
               (Churchill&apos;s for dry whites, Cálem for Fado). Your palate
-              will thank you.
+              will thank you. New to port wine? Read our{" "}
+              <a href="/guides/port-wine-tasting-beginners" className="text-terracotta underline">
+                beginner&apos;s tasting guide
+              </a>{" "}
+              first — it covers Ruby vs Tawny, how to taste, and what to buy.
             </ProTip>
 
             {/* Cellar rankings */}
@@ -183,7 +208,7 @@ export default function WineCellarsGuidePage() {
             <GuideSection label="Tips" title="Tips for Visiting Wine Cellars">
               <div className="space-y-2">
                 {[
-                  "Book online 2-3 days ahead — saves money and guarantees your slot.",
+                  "Book online 1-2 weeks ahead in summer, 2-3 days otherwise — saves money and guarantees your slot.",
                   "Go in the morning — cellars are less crowded and your palate is fresher.",
                   "The premium tasting (€20-€25) is always worth the upgrade over standard (€12-€15).",
                   "Don't visit on an empty stomach. Eat breakfast first, or the alcohol hits harder.",
@@ -211,9 +236,9 @@ export default function WineCellarsGuidePage() {
 
             <GuideCTA
               title="Add a Wine Day to Your Itinerary"
-              description="Our 3-day and 5-day itineraries include perfectly timed wine cellar visits."
-              buttonText="See Itineraries"
-              href="/itineraries"
+              description="Day 2 of our 3-day itinerary is a full Gaia wine day with Taylor's, Graham's, and sunset at Jardim do Morro."
+              buttonText="See 3-Day Itinerary"
+              href="/3-day-porto-itinerary"
             />
 
             <FAQSection faqs={wineCellarFaqs} />

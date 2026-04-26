@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "5-Day Porto Itinerary 2026 — The Deep Dive (Beyond the Tourist Trail) | Porto Itinerary",
   description:
-    "The ultimate 5-day Porto itinerary: historic center, wine cellars, Foz coast, Douro Valley day trip & hidden neighborhoods. Full guide with times, restaurants & local secrets for 2026.",
+    "Five days in Porto goes beyond the highlights: historic center, wine cellars, Foz coast, a Douro Valley train ride, and the neighborhoods most visitors skip. Full day-by-day plan.",
   alternates: {
     canonical: "https://portoitinerary.com/5-day-porto-itinerary",
   },
@@ -29,13 +29,21 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "TravelAction",
-  name: "5-Day Porto Itinerary",
+  "@type": "Article",
+  headline: "5-Day Porto Itinerary 2026 — The Deep Dive (Beyond the Tourist Trail)",
   description: fiveDayItinerary.description,
-  location: {
-    "@type": "City",
-    name: "Porto",
-    address: { "@type": "PostalAddress", addressCountry: "PT" },
+  url: "https://portoitinerary.com/5-day-porto-itinerary",
+  datePublished: "2026-03-22",
+  dateModified: "2026-04-23",
+  author: {
+    "@type": "Person",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com",
   },
 };
 

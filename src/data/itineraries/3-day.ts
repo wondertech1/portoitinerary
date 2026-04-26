@@ -3,9 +3,9 @@ export const threeDayItinerary = {
   title: "3-Day Porto Itinerary 2026 — The Classic Route (Tested by Locals)",
   shortTitle: "The Classic Route",
   subtitle:
-    "Three days to fall in love with Porto — from azulejo lanes to Douro sunsets.",
+    "Three days, both sides of the river, and the Porto that keeps pulling people back.",
   description:
-    "The ideal 3-day Porto itinerary for 2026. Day 1: historic center and Ribeira. Day 2: Gaia wine cellars and Foz do Douro coast. Day 3: Bolhão Market, Cedofeita, and local gems. Tested by locals with exact times, restaurants, and budget tips.",
+    "Day 1: historic center and Ribeira. Day 2: Gaia wine cellars and Foz do Douro coast. Day 3: Bolhão Market, Cedofeita, and the neighborhoods tourists skip. Day-by-day plan with exact times, restaurants, and budget tips.",
   lastVerified: "March 2026",
   stats: [
     { label: "Stops", value: "18" },
@@ -60,10 +60,10 @@ export const threeDayItinerary = {
           name: "São Bento Station",
           neighborhood: "Baixa",
           description:
-            "Begin where every Porto story starts — in the entrance hall of São Bento, covered with 20,000 azulejo tiles depicting Portuguese history. The tilework by Jorge Colaço took 11 years to complete. Arrive early to appreciate the details without crowds.",
-          duration: "20 min",
+            "With three days, you can afford to linger here. Jorge Colaço's 20,000 azulejo tiles aren't decoration — they're a history course. The north wall depicts the Battle of Ceuta (1415), the start of Portugal's maritime empire. The south wall shows medieval court life. The large panels on the east tell the story of the Reconquista. Spend 20 minutes reading the walls, not just photographing them.",
+          duration: "25 min",
           cost: "Free",
-          tip: "Stand in the center and slowly turn — each wall tells a different chapter of Portuguese history.",
+          tip: "Start with the large panel on the right as you enter — it shows Prince Henry the Navigator at Ceuta, the moment that changed Portuguese history forever.",
           image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80",
         },
         {
@@ -72,10 +72,10 @@ export const threeDayItinerary = {
           name: "Clérigos Tower",
           neighborhood: "Vitória",
           description:
-            "Climb 240 steps to the top of Porto's 75-meter Baroque bell tower for the best panoramic view of the city. On clear days, you can see the Douro estuary meeting the Atlantic. The church at the base is free and features a stunning gilded interior.",
+            "The 240-step climb is a Porto rite of passage. At the top, take time to identify what you'll visit over the next three days: the Gaia wine lodges across the river, Foz do Douro to the west where the Douro meets the Atlantic, and the Cedofeita neighborhood stretching north. The church below deserves a proper visit — the gilded Baroque altar and the painted ceiling are extraordinary and often rushed past.",
           duration: "45 min",
           cost: "€8",
-          tip: "Go first thing in the morning — by 11 AM, the staircase queue can be 30+ minutes.",
+          tip: "Visit the church first (free, 10 min), then climb the tower. By 11 AM the staircase queue can stretch 30+ minutes.",
         },
         {
           time: "10:30 AM",
@@ -94,7 +94,7 @@ export const threeDayItinerary = {
           name: "Ribeira District",
           neighborhood: "Ribeira",
           description:
-            "Descend through the narrow medieval alleys to the Cais da Ribeira, Porto's UNESCO-listed waterfront. The colorful houses stacked along the Douro are the city's signature image. Walk along the quay, watch the rabelo boats, and soak in the atmosphere.",
+            "Take the steep medieval lanes slowly — each alley has its own character and most tourists rush past. At the waterfront, this is the Porto that earned UNESCO status in 1996. The stacked houses weren't always picturesque; many were slums until the 1980s. Today they're a symbol of Porto's renaissance. Walk the quay east to the Ponte Pensil ruins, then back west toward the bridge.",
           duration: "45 min",
           cost: "Free",
           image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80",
@@ -115,7 +115,7 @@ export const threeDayItinerary = {
           name: "Igreja de São Francisco",
           neighborhood: "Ribeira",
           description:
-            "Step inside one of Europe's most jaw-dropping church interiors. The 14th-century Gothic exterior gives no hint of the 300 kg of gold covering every surface inside. The catacombs beneath contain centuries of burials. This is the most gilded church in Portugal.",
+            "Step inside one of Europe's most jaw-dropping church interiors. The 14th-century Gothic exterior gives no hint of the hundreds of kilograms of gold covering every surface inside. The catacombs beneath contain centuries of burials. This is the most gilded church in Portugal.",
           duration: "45 min",
           cost: "€9",
           tip: "No photos allowed inside, but trust us — the gold-covered wood carvings will stay burned in your memory.",
@@ -136,7 +136,7 @@ export const threeDayItinerary = {
           name: "Dom Luís I Bridge Walk",
           neighborhood: "Ribeira → Gaia",
           description:
-            "Cross the upper deck of the iconic iron bridge for the best views of both cities. Designed by Théophile Seyrig, a collaborator of Gustave Eiffel. Walk slowly, the view is extraordinary from the middle. Then take the lower deck back to Porto.",
+            "Théophile Seyrig designed this bridge in 1886 — he'd co-founded the Eiffel company before starting his own firm, and this was his masterpiece. The upper deck sits 45 meters above the Douro, and the panorama from the middle is hypnotic. Walk the full crossing slowly. You'll cross this bridge several times over three days; this first walk sets the stage for your Gaia wine day tomorrow.",
           duration: "30 min",
           cost: "Free",
         },
@@ -397,21 +397,21 @@ export const threeDayItinerary = {
   ],
   related: [
     {
-      title: "1-Day Porto Itinerary",
-      description: "Short on time? Hit every essential in 24 hours.",
-      href: "/1-day-porto-itinerary",
-      category: "Itinerary",
+      title: "Port Wine for Beginners",
+      description: "How to taste, what to order, and what to bring home.",
+      href: "/guides/port-wine-tasting-beginners",
+      category: "Wine Guide",
     },
     {
       title: "Port Wine Cellars Guide",
-      description: "Complete guide to Gaia's best tours and tastings.",
+      description: "8 cellars compared — prices, tours, and verdicts.",
       href: "/guides/port-wine-cellars-guide",
       category: "Wine Guide",
     },
     {
-      title: "Where to Eat in Porto",
-      description: "A local's guide to the best food across every neighborhood.",
-      href: "/guides/where-to-eat-porto",
+      title: "Best Francesinha in Porto",
+      description: "8 spots ranked — we ate them all.",
+      href: "/guides/best-francesinha-porto",
       category: "Food Guide",
     },
   ],

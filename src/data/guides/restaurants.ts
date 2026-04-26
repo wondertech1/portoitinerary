@@ -223,7 +223,7 @@ export const budgetTips = [
   "The daily 'prato do dia' (dish of the day) at traditional tascas is usually €7–€10 for a full meal with drink.",
   "Bolhão Market is cheaper than restaurants for pastries, sandwiches, and fresh fruit.",
   "Lunch menus (ementa do dia) offer the best value — many restaurants serve a full meal for €8–€12.",
-  "Super Bock (local beer) costs €1–€2 at bars, vs. €4–€5 for craft beers.",
+  "Order Super Bock, never Sagres. Porto is Super Bock territory — asking for Sagres here is like ordering Pepsi in Atlanta. It costs €1–€2 at bars, vs. €4–€5 for craft beers.",
   "Skip any restaurant that has photos on the menu and staff standing outside trying to pull you in.",
   "Porto tap water is safe and free — order 'água da torneira' to save on bottled water.",
 ];

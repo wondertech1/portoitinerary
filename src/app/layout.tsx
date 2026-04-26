@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, Homemade_Apple } from "next/font/google";
+import Script from "next/script";
+import JsonLd from "@/components/shared/JsonLd";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s | Porto Itinerary",
   },
   description:
-    "The best Porto travel guide for 2026. Locally tested itineraries, restaurant picks, wine cellar tours, and neighborhood guides. Plan your trip to Porto, Portugal.",
+    "Porto travel guide with day-by-day itineraries, restaurant picks, wine cellar tours, and neighborhood guides. Every recommendation personally tested.",
   keywords: [
     "Porto travel guide",
     "Porto itinerary",
@@ -62,7 +64,36 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-P6D9HW5S2H"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P6D9HW5S2H');
+          `}
+        </Script>
+      </head>
       <body className={`${cormorant.variable} ${inter.variable} ${homemadeApple.variable} antialiased`}>
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Porto Itinerary",
+            url: "https://portoitinerary.com",
+            description:
+              "Porto travel guide with day-by-day itineraries, restaurant picks, wine cellar tours, and neighborhood guides.",
+            publisher: {
+              "@type": "Organization",
+              name: "Porto Itinerary",
+              url: "https://portoitinerary.com",
+            },
+          }}
+        />
         {children}
       </body>
     </html>

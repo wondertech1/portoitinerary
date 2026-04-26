@@ -10,7 +10,6 @@ const neighborhoods = [
     name: "Ribeira",
     image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=400&q=80",
     tagline: "Douro waterfront soul",
-    href: "/neighborhoods/ribeira",
     rotation: -2,
     clipColor: "#1b4793",
   },
@@ -18,7 +17,6 @@ const neighborhoods = [
     name: "Bolhao",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
     tagline: "Markets & Art Nouveau",
-    href: "/neighborhoods/bolhao",
     rotation: 1.5,
     clipColor: "#c67a5c",
   },
@@ -26,7 +24,6 @@ const neighborhoods = [
     name: "Cedofeita",
     image: "https://images.unsplash.com/photo-1569959220744-ff553533f492?auto=format&fit=crop&w=400&q=80",
     tagline: "Creative quarter",
-    href: "/neighborhoods/cedofeita",
     rotation: -1,
     clipColor: "#5a7a5a",
   },
@@ -34,7 +31,6 @@ const neighborhoods = [
     name: "Foz do Douro",
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?auto=format&fit=crop&w=400&q=80",
     tagline: "River meets Atlantic",
-    href: "/neighborhoods/foz",
     rotation: 2.5,
     clipColor: "#3a6b8c",
   },
@@ -42,7 +38,6 @@ const neighborhoods = [
     name: "Gaia",
     image: "https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&w=400&q=80",
     tagline: "Port cellars & sunsets",
-    href: "/neighborhoods/gaia",
     rotation: -2.5,
     clipColor: "#6b3a6b",
   },
@@ -50,7 +45,6 @@ const neighborhoods = [
     name: "Miragaia",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80",
     tagline: "Quiet lanes & tascas",
-    href: "/neighborhoods/miragaia",
     rotation: 1,
     clipColor: "#c49a3c",
   },
@@ -67,13 +61,19 @@ export default function NeighborhoodBoard() {
           <h2 className="font-serif text-3xl sm:text-4xl text-stone-800">
             Pick Your Bairro
           </h2>
+          <Link
+            href="/guides/porto-neighborhoods"
+            className="inline-block mt-3 text-xs font-sans tracking-[0.15em] uppercase text-terracotta hover:text-terracotta-dark transition-colors"
+          >
+            Explore all neighborhoods →
+          </Link>
         </ScrollReveal>
 
         <div className="cork-texture rounded-xl p-6 sm:p-10">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8">
             {neighborhoods.map((n, i) => (
               <ScrollReveal key={n.name} delay={i * 0.08}>
-                <Link href={n.href} className="group block">
+                <div className="group block">
                   <div
                     className="relative transition-all duration-300 ease-out group-hover:!rotate-0 group-hover:-translate-y-1"
                     style={{ transform: `rotate(${n.rotation}deg)` }}
@@ -88,21 +88,21 @@ export default function NeighborhoodBoard() {
                       <div className="relative aspect-[4/3]">
                         <Image
                           src={n.image}
-                          alt={n.name}
+                          alt={`${n.name} neighborhood in Porto`}
                           fill
                           className="object-cover"
                           sizes="(max-width: 640px) 50vw, 33vw"
                         />
                       </div>
                       <div className="p-3 text-center">
-                        <h3 className="font-serif text-lg text-stone-800 group-hover:text-terracotta transition-colors duration-300">
+                        <h3 className="font-serif text-lg text-stone-800">
                           {n.name}
                         </h3>
                         <p className="text-stone-500 text-xs mt-0.5">{n.tagline}</p>
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </ScrollReveal>
             ))}
           </div>

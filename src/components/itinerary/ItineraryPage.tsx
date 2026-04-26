@@ -161,6 +161,43 @@ export default function ItineraryPage({ data }: { data: ItineraryData }) {
                   3-day itinerary
                 </a>{" "}
                 covers Gaia wine cellars, Foz do Douro coast, and Cedofeita&apos;s creative quarter.
+                New to port wine? Read our{" "}
+                <a href="/guides/port-wine-tasting-beginners" className="text-terracotta underline">
+                  beginner&apos;s tasting guide
+                </a>{" "}
+                before your cellar visit.
+              </ProTip>
+            )}
+
+            {data.duration === 3 && (
+              <ProTip variant="tip">
+                Planning your cellar visits? Our{" "}
+                <a href="/guides/port-wine-cellars-guide" className="text-terracotta underline">
+                  wine cellars comparison guide
+                </a>{" "}
+                ranks all 8 Gaia cellars with prices and verdicts. For restaurant deep-dives, see{" "}
+                <a href="/guides/where-to-eat-porto" className="text-terracotta underline">
+                  where to eat in Porto
+                </a>{" "}
+                and our{" "}
+                <a href="/guides/best-francesinha-porto" className="text-terracotta underline">
+                  francesinha ranking
+                </a>.
+              </ProTip>
+            )}
+
+            {data.duration === 5 && (
+              <ProTip variant="tip">
+                With 5 days, you have time to go deep. Read our{" "}
+                <a href="/guides/port-wine-tasting-beginners" className="text-terracotta underline">
+                  port wine tasting guide
+                </a>{" "}
+                before Day 2 — it covers what to look for, what to buy, and how to make Porto Tónico at home.
+                For food planning, our{" "}
+                <a href="/guides/where-to-eat-porto" className="text-terracotta underline">
+                  restaurant guide by neighborhood
+                </a>{" "}
+                covers every area you&apos;ll visit.
               </ProTip>
             )}
 

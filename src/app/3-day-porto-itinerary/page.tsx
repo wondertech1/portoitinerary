@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   title:
     "3-Day Porto Itinerary 2026 — The Classic Route (Tested by Locals) | Porto Itinerary",
   description:
-    "The ideal 3-day Porto itinerary: historic center, Gaia wine cellars, Foz do Douro coast, Bolhão Market & Cedofeita. Day-by-day plan with times, restaurants & budget tips for 2026.",
+    "Three days in Porto done right: historic center and Ribeira, Gaia wine cellars and Foz coast, then Bolhão Market and Cedofeita. Day-by-day plan with times, restaurants & budget breakdown.",
   alternates: {
     canonical: "https://portoitinerary.com/3-day-porto-itinerary",
   },
   openGraph: {
     title: "3-Day Porto Itinerary 2026 — The Classic Route",
     description:
-      "Three days to fall in love with Porto. Day 1: historic center. Day 2: wine cellars & coast. Day 3: markets & art. Tested by locals.",
+      "Three days in Porto done right. Day 1: historic center. Day 2: wine cellars & coast. Day 3: markets & creative quarter.",
     url: "https://portoitinerary.com/3-day-porto-itinerary",
     siteName: "Porto Itinerary",
     type: "article",
@@ -29,13 +29,21 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "TravelAction",
-  name: "3-Day Porto Itinerary",
+  "@type": "Article",
+  headline: "3-Day Porto Itinerary 2026 — The Classic Route (Tested by Locals)",
   description: threeDayItinerary.description,
-  location: {
-    "@type": "City",
-    name: "Porto",
-    address: { "@type": "PostalAddress", addressCountry: "PT" },
+  url: "https://portoitinerary.com/3-day-porto-itinerary",
+  datePublished: "2026-03-22",
+  dateModified: "2026-04-23",
+  author: {
+    "@type": "Person",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com/about",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com",
   },
 };
 

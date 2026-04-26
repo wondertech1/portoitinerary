@@ -3,9 +3,9 @@ export const oneDayItinerary = {
   title: "1-Day Porto Itinerary 2026 — The Perfect Day (Locally Tested)",
   shortTitle: "The Perfect Day",
   subtitle:
-    "Twenty-four hours, six neighborhoods, one unforgettable day in Porto.",
+    "Twenty-four hours, six neighborhoods, and a sunset you'll think about for weeks.",
   description:
-    "The perfect 1-day Porto itinerary for 2026. Walk from São Bento to the Ribeira, cross Dom Luís I Bridge, taste port wine in Gaia, and catch sunset over the Douro. Locally tested route with exact times, costs, and restaurant picks.",
+    "Walk from São Bento to the Ribeira, cross Dom Luís I Bridge, taste port wine in Gaia, and catch sunset over the Douro. One day, eight stops, with exact times, costs, and restaurant picks.",
   lastVerified: "March 2026",
   stats: [
     { label: "Stops", value: "8" },
@@ -39,10 +39,10 @@ export const oneDayItinerary = {
           name: "São Bento Station",
           neighborhood: "Baixa",
           description:
-            "Start your day at Porto's most beautiful train station. The entrance hall is covered with 20,000 hand-painted azulejo tiles depicting scenes from Portuguese history. You don't need a ticket — just walk in and look up. The tilework by Jorge Colaço took 11 years to complete (1905–1916) and tells the story of Portugal from ancient times through the Age of Discovery.",
-          duration: "20 min",
+            "Your one day starts here. Walk into the entrance hall, look up, and let 20,000 blue-and-white tiles set the tone for everything Porto does best: turning the functional into the beautiful. You don't need a ticket — this is a working train station, not a museum. Give yourself 15 minutes to absorb the panels, then move on. You have a lot to see today.",
+          duration: "15 min",
           cost: "Free",
-          tip: "Arrive before 9:30 to beat the tour groups. The best light hits the tiles from the south-facing windows in the morning.",
+          tip: "Don't linger too long here — the tiles are stunning but the city outside is better. A quick loop of the hall is enough.",
           image:
             "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80",
         },
@@ -52,10 +52,10 @@ export const oneDayItinerary = {
           name: "Clérigos Tower (Torre dos Clérigos)",
           neighborhood: "Vitória",
           description:
-            "Walk 5 minutes uphill to Porto's most iconic landmark. The 75-meter Baroque tower offers the best 360° panorama of the city. Yes, it's 240 steps — but the view of terracotta rooftops tumbling toward the Douro is worth every one. The church below is free to enter and often overlooked.",
-          duration: "45 min",
+            "With only one day, this is your non-negotiable panorama stop. The 240-step climb earns you the single best view in Porto — terracotta rooftops spilling toward the Douro, the Gaia hillside, and the Atlantic on clear days. Use this view to orient yourself for the rest of the day. Skip the church interior if you're short on time.",
+          duration: "30 min",
           cost: "€8",
-          tip: "Buy tickets online to skip the queue. The tower is narrowest at the top — if you're claustrophobic, the church interior is equally impressive.",
+          tip: "Buy tickets online to skip the ticket counter — but you'll still queue for the staircase. Go early (9 AM) or late (after 5 PM). If the wait is 20+ minutes, Miradouro da Vitória is 5 min away and free.",
           image:
             "https://images.unsplash.com/photo-1563906267088-b029e7101114?auto=format&fit=crop&w=800&q=80",
         },
@@ -76,7 +76,7 @@ export const oneDayItinerary = {
           name: "Bolhão Market (Mercado do Bolhão)",
           neighborhood: "Bolhão",
           description:
-            "Walk east to Porto's grand market, beautifully restored in 2022. Two floors of fresh produce, cheese, cured meats, flowers, and bacalhau (dried cod). This is where Porto locals actually shop. Grab a pastel de nata from Confeitaria do Bolhão or sample some presunto (cured ham).",
+            "Walk east to Porto's grand market, beautifully restored in 2022. Two floors of fresh produce, cheese, cured meats, flowers, and bacalhau (dried cod). The ground floor fish and produce stalls still feel genuine; the upper floor is more artisan and tourist-facing since the 2022 renovation. Grab a pastel de nata from Confeitaria do Bolhão or sample some presunto (cured ham).",
           duration: "45 min",
           cost: "Free entry",
           tip: "The ground floor has the freshest produce; the upper floor has more artisan food shops and cafes with balcony seating.",
@@ -98,10 +98,10 @@ export const oneDayItinerary = {
           name: "Ribeira District & Cais da Ribeira",
           neighborhood: "Ribeira",
           description:
-            "Walk downhill through narrow medieval lanes to the Ribeira waterfront — Porto's UNESCO-listed heart. The colorful townhouses stacked along the Douro are the city's most photographed scene. Wander the alleyways, peek into tiny shops, and soak in the atmosphere of Porto's oldest neighborhood.",
-          duration: "45 min",
+            "Head downhill to the waterfront for Porto's signature view — the one you've seen on every travel poster. With one day, don't try to explore every alley. Walk the quay from end to end, take your photos, and keep moving toward the bridge. The Ribeira is for absorbing, not analyzing.",
+          duration: "30 min",
           cost: "Free",
-          tip: "Walk down Rua das Flores — it's the prettiest street in Porto, lined with azulejo facades and local boutiques.",
+          tip: "Take Rua das Flores downhill — it's the prettiest route. At the waterfront, walk left (east) for the best bridge views and fewer crowds.",
           image:
             "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80",
         },
@@ -111,10 +111,10 @@ export const oneDayItinerary = {
           name: "Dom Luís I Bridge — Upper Deck",
           neighborhood: "Ribeira → Gaia",
           description:
-            "Cross the iconic double-decker iron bridge on the upper level for the best views of both Porto and Gaia. Designed by a student of Gustave Eiffel, the bridge connects Porto's historic center to the port wine cellars of Vila Nova de Gaia. The walk takes 5 minutes but you'll stop for photos at least three times.",
-          duration: "15 min",
+            "Cross the upper deck to Gaia — this is your transition from sightseeing to wine tasting. The walk takes 5 minutes but the mid-bridge panorama is the best free view in Porto. Don't stop too long; the wine cellars are waiting on the other side.",
+          duration: "10 min",
           cost: "Free",
-          tip: "The upper deck can be windy. Cross from Porto to Gaia (east to west) in the afternoon for the best light on Porto's skyline.",
+          tip: "Cross from Porto to Gaia on the upper deck. You'll return via the lower deck later — it's a completely different perspective.",
         },
         {
           time: "3:30 PM",
@@ -122,10 +122,10 @@ export const oneDayItinerary = {
           name: "Port Wine Tasting — Taylor's or Graham's",
           neighborhood: "Vila Nova de Gaia",
           description:
-            "Welcome to the reason Porto is famous. Vila Nova de Gaia's hillside is lined with port wine cellars (lodges), most offering tastings and tours. Taylor's has the most impressive cellars and a stunning terrace. Graham's offers a more intimate experience with river views. Both include guided tours explaining how port wine is made, followed by tastings of 3-5 wines.",
+            "With one day, pick ONE cellar and do it properly rather than rushing through two. Taylor's is the best all-rounder: self-guided tour through atmospheric cellars, a tasting of 3-5 wines, and a terrace with the best view in Gaia. If Taylor's is booked, Graham's is equally excellent with a more intimate feel. Either way, choose the premium tasting — the €10 upgrade gets you aged tawnies that are worth the trip alone.",
           duration: "1.5 hrs",
           cost: "€15–€25",
-          tip: "Book online 2-3 days ahead, especially for Graham's. Ask for the premium tasting — the difference between a €15 and €25 tasting is significant.",
+          tip: "Book online 2-3 days ahead. One cellar done well beats two done in a rush. The premium tasting is always worth it.",
           image:
             "https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&w=800&q=80",
         },
@@ -137,10 +137,10 @@ export const oneDayItinerary = {
           name: "Jardim do Morro — Sunset",
           neighborhood: "Vila Nova de Gaia",
           description:
-            "Walk up to the garden at the Gaia end of the Dom Luís I Bridge upper deck. This grassy hillside is Porto's best sunset spot — locals gather here every evening with wine, snacks, and guitars. Watch the golden light paint Porto's skyline pink and orange as the sun drops behind the Douro.",
+            "If you only see one sunset in Porto, see it here. The grassy hillside above the bridge fills with locals every evening — bottles of vinho verde, cheese, and the occasional guitar. The light on Porto's granite and tile facades is extraordinary. This is the moment that makes a one-day visit feel complete.",
           duration: "45 min",
           cost: "Free",
-          tip: "Grab a bottle of vinho verde and some queijo from a nearby shop. Sunset is around 19:30 in summer, 17:30 in winter.",
+          tip: "Grab a €3 bottle of vinho verde from the mini-market on Avenida da República in Gaia. Sunset times: ~19:30 in summer, ~17:30 in winter.",
         },
         {
           time: "7:30 PM",
@@ -212,7 +212,7 @@ export const oneDayItinerary = {
     {
       question: "How much money do I need for 1 day in Porto?",
       answer:
-        "Budget travelers can manage on €50–€75 including hostel, meals, and a wine tasting. Mid-range travelers should budget €150–€200 for a nice hotel, sit-down meals, and premium tastings. Porto is one of Western Europe's most affordable cities.",
+        "Budget travelers can manage on €50–€75 including hostel, meals, and a wine tasting. Mid-range travelers should budget €150–€200 for a nice hotel, sit-down meals, and premium tastings. Porto remains cheaper than Lisbon, Barcelona, or Paris, though prices have risen since 2020.",
     },
     {
       question: "What should I wear in Porto?",
@@ -222,14 +222,14 @@ export const oneDayItinerary = {
   ],
   related: [
     {
-      title: "Where to Eat in Porto",
-      description: "A local's guide to the best food across every neighborhood.",
-      href: "/guides/where-to-eat-porto",
-      category: "Food Guide",
+      title: "Port Wine for Beginners",
+      description: "How to taste, what to order, and what to bring home.",
+      href: "/guides/port-wine-tasting-beginners",
+      category: "Wine Guide",
     },
     {
       title: "Port Wine Cellars Guide",
-      description: "Complete guide to Gaia's best tours and tastings.",
+      description: "8 cellars compared — prices, tours, and verdicts.",
       href: "/guides/port-wine-cellars-guide",
       category: "Wine Guide",
     },

@@ -7,10 +7,10 @@ import Link from "next/link";
 
 const navLinks = [
   { href: "/itineraries", label: "Itineraries" },
-  { href: "/stories", label: "Stories" },
-  { href: "/taste", label: "Taste" },
-  { href: "/stay", label: "Stay" },
-  { href: "/wander", label: "Wander" },
+  { href: "/guides/where-to-eat-porto", label: "Food" },
+  { href: "/guides/port-wine-cellars-guide", label: "Wine Cellars" },
+  { href: "/guides/best-port-wine-bars", label: "Wine Bars" },
+  { href: "/guides/douro-valley-day-trip", label: "Douro Valley" },
   { href: "/about", label: "About" },
 ];
 

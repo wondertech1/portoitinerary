@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title:
     "Where to Eat in Porto 2026 — A Local's Guide to the Best Food | Porto Itinerary",
   description:
-    "The best restaurants in Porto for 2026, organized by neighborhood. From francesinha spots to Michelin-starred dining, with what to order at each place. Locally tested.",
+    "The best restaurants in Porto, organized by neighborhood. From francesinha spots to Michelin-starred dining, with what to order at each place and what to skip.",
   alternates: {
     canonical: "https://portoitinerary.com/guides/where-to-eat-porto",
   },
@@ -41,6 +41,13 @@ const jsonLd = {
   description:
     "Best restaurants in Porto organized by neighborhood, with what to order at each place.",
   url: "https://portoitinerary.com/guides/where-to-eat-porto",
+  datePublished: "2026-03-22",
+  dateModified: "2026-04-23",
+  author: {
+    "@type": "Person",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com/about",
+  },
   publisher: {
     "@type": "Organization",
     name: "Porto Itinerary",
@@ -84,9 +91,9 @@ const related = [
     category: "Food Guide",
   },
   {
-    title: "Port Wine Cellars Guide",
-    description: "Complete guide to Gaia's best tours and tastings.",
-    href: "/guides/port-wine-cellars-guide",
+    title: "Port Wine for Beginners",
+    description: "How to taste, what to order, and what to bring home.",
+    href: "/guides/port-wine-tasting-beginners",
     category: "Wine Guide",
   },
   {
@@ -111,7 +118,6 @@ export default function WhereToEatPage() {
           subtitle="A local's guide to the best food — from standing-room street stalls to Michelin-starred tables."
           lastVerified="March 2026"
           breadcrumbItems={[
-            { label: "Guides", href: "/guides/where-to-eat-porto" },
             { label: "Where to Eat" },
           ]}
         />
@@ -142,6 +148,20 @@ export default function WhereToEatPage() {
                 ))}
               </div>
             </GuideSection>
+
+            <ProTip variant="tip">
+              The francesinha is Porto&apos;s most iconic dish — and the
+              differences between restaurants are huge. We ate at 8 spots and
+              ranked them in our{" "}
+              <a href="/guides/best-francesinha-porto" className="text-terracotta underline">
+                best francesinha guide
+              </a>.
+              Pair your meals with port wine — our{" "}
+              <a href="/guides/port-wine-tasting-beginners" className="text-terracotta underline">
+                beginner&apos;s tasting guide
+              </a>{" "}
+              explains which styles go with which dishes.
+            </ProTip>
 
             {/* Restaurants by neighborhood */}
             {neighborhoods.map((hood) => (

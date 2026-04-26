@@ -11,14 +11,14 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Porto Itineraries 2026 — 1, 3 & 5 Day Plans | Porto Itinerary",
   description:
-    "How many days do you need in Porto? Choose from our locally tested 1-day, 3-day, and 5-day Porto itineraries with exact times, costs, restaurants, and insider tips for 2026.",
+    "How many days do you need in Porto? Choose from 1-day, 2-day, 3-day, and 5-day itineraries with exact times, costs, and restaurant picks for every meal.",
   alternates: {
     canonical: "https://portoitinerary.com/itineraries",
   },
   openGraph: {
     title: "Porto Itineraries 2026 — 1, 3 & 5 Day Plans",
     description:
-      "Locally tested Porto itineraries for every trip length. Day-by-day plans with times, costs, and local tips.",
+      "Porto itineraries for every trip length. Day-by-day plans with times, costs, and restaurant picks.",
     url: "https://portoitinerary.com/itineraries",
     siteName: "Porto Itinerary",
     type: "website",
@@ -30,7 +30,7 @@ const jsonLd = {
   "@type": "CollectionPage",
   name: "Porto Itineraries",
   description:
-    "Curated Porto itineraries for 1, 3, and 5 days — locally tested with exact times, costs, and restaurant picks.",
+    "Porto itineraries for 1, 2, 3, and 5 days — with exact times, costs, and restaurant picks for each day.",
   url: "https://portoitinerary.com/itineraries",
 };
 
@@ -122,6 +122,107 @@ export default function ItinerariesPage() {
                   One day is enough to fall in love. Three days is enough to
                   understand why people stay. Five days? You might not want to
                   leave.
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
+        {/* Comparison content */}
+        <section className="px-6 pb-12">
+          <div className="mx-auto max-w-3xl">
+            <ScrollReveal>
+              <div className="font-sans text-stone-600 text-sm leading-relaxed space-y-4">
+                <h2 className="font-serif text-2xl text-stone-800 mb-4">
+                  The Short Answer
+                </h2>
+                <p>
+                  <strong className="text-stone-800">Three days is the sweet spot for most travelers.</strong>{" "}
+                  You get the historic center, two wine cellar tastings in Gaia, the Foz do Douro coast, Bolhão Market, and Porto&apos;s creative neighborhoods. You leave feeling like you experienced the city, not just photographed it.
+                </p>
+                <p>
+                  One day works if you&apos;re on a layover or adding Porto to a longer Portugal trip — you&apos;ll hit the essential highlights (São Bento, Clérigos Tower, Ribeira, one wine tasting, and a Douro sunset) but you&apos;ll skip entire neighborhoods.
+                </p>
+                <p>
+                  Five days is for people who want to go beyond the obvious: a Douro Valley train ride through terraced vineyards, street art in Bonfim, the cliffside houses of Fontainhas, and the quiet tascas in Miragaia where locals eat. Porto rewards slow travel — and five days lets you discover the city that most visitors miss.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal>
+              <div className="mt-10 mb-6">
+                <h2 className="font-serif text-2xl text-stone-800 mb-5">
+                  Which Itinerary Is Right for You?
+                </h2>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-xs font-sans border-collapse">
+                    <thead>
+                      <tr className="border-b border-stone-200">
+                        <th className="text-left py-3 pr-4 text-stone-500 font-medium tracking-wider uppercase">Criteria</th>
+                        <th className="text-center py-3 px-3 text-stone-500 font-medium tracking-wider uppercase">1 Day</th>
+                        <th className="text-center py-3 px-3 text-stone-500 font-medium tracking-wider uppercase">3 Days</th>
+                        <th className="text-center py-3 px-3 text-stone-500 font-medium tracking-wider uppercase">5 Days</th>
+                      </tr>
+                    </thead>
+                    <tbody className="text-stone-600">
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Wine cellars visited</td>
+                        <td className="py-2.5 px-3 text-center">1</td>
+                        <td className="py-2.5 px-3 text-center">2</td>
+                        <td className="py-2.5 px-3 text-center">3-4</td>
+                      </tr>
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Neighborhoods covered</td>
+                        <td className="py-2.5 px-3 text-center">3</td>
+                        <td className="py-2.5 px-3 text-center">6</td>
+                        <td className="py-2.5 px-3 text-center">9+</td>
+                      </tr>
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Douro Valley</td>
+                        <td className="py-2.5 px-3 text-center">No</td>
+                        <td className="py-2.5 px-3 text-center">No</td>
+                        <td className="py-2.5 px-3 text-center">Yes (Day 4)</td>
+                      </tr>
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Foz coastline</td>
+                        <td className="py-2.5 px-3 text-center">No</td>
+                        <td className="py-2.5 px-3 text-center">Yes (Day 2)</td>
+                        <td className="py-2.5 px-3 text-center">Yes (Day 3)</td>
+                      </tr>
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Budget (mid-range)</td>
+                        <td className="py-2.5 px-3 text-center">€145-200</td>
+                        <td className="py-2.5 px-3 text-center">€415-580</td>
+                        <td className="py-2.5 px-3 text-center">€715-990</td>
+                      </tr>
+                      <tr className="border-b border-stone-100">
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Best for</td>
+                        <td className="py-2.5 px-3 text-center">Layovers, add-ons</td>
+                        <td className="py-2.5 px-3 text-center">Most visitors</td>
+                        <td className="py-2.5 px-3 text-center">Deep explorers</td>
+                      </tr>
+                      <tr>
+                        <td className="py-2.5 pr-4 font-medium text-stone-700">Pace</td>
+                        <td className="py-2.5 px-3 text-center">Fast</td>
+                        <td className="py-2.5 px-3 text-center">Comfortable</td>
+                        <td className="py-2.5 px-3 text-center">Relaxed</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal>
+              <div className="font-sans text-stone-600 text-sm leading-relaxed space-y-4 mt-6 mb-10">
+                <h2 className="font-serif text-2xl text-stone-800 mb-4">
+                  Can I Combine Itineraries?
+                </h2>
+                <p>
+                  Yes — they&apos;re designed to nest. The 3-day itinerary covers all 1-day highlights in Day 1, then adds wine cellars and the coast. The 5-day itinerary covers everything in the 3-day, then adds the Douro Valley and hidden neighborhoods. If your trip changes length, you can scale up or down without starting over.
+                </p>
+                <p>
+                  <strong className="text-stone-800">Our recommendation:</strong> if you have 2 days, use the 3-day itinerary and drop Day 3 (markets and Cedofeita). If you have 4 days, use the 5-day itinerary and drop Day 5 (hidden Porto). Each itinerary is structured so the most important content comes first.
                 </p>
               </div>
             </ScrollReveal>

@@ -143,7 +143,7 @@ export const wineCellarFaqs = [
   {
     question: "Do I need to book wine cellar tours in advance?",
     answer:
-      "For Taylor's and Graham's, yes — book 2-3 days ahead online (saves 10-15% too). Sandeman and Ferreira accept walk-ins most days. Premium tastings and weekend slots at any cellar should be booked ahead.",
+      "For Taylor's and Graham's, yes — book 1-2 weeks ahead in summer (July-August), 2-3 days in shoulder season. Sandeman and Ferreira accept walk-ins most days. Premium tastings and weekend slots fill up fastest. Booking online saves 10-15%.",
   },
   {
     question: "How much does a wine tasting cost in Porto?",

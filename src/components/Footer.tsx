@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Instagram, Send, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 export default function Footer() {
@@ -48,33 +48,26 @@ export default function Footer() {
             Porto<em className="text-terracotta">Itinerary</em>
           </Link>
 
-          <div className="flex items-center gap-8">
-            {["Stories", "Taste", "Stay", "Wander", "About"].map((item) => (
+          <div className="flex items-center gap-8 flex-wrap justify-center">
+            {[
+              { label: "Itineraries", href: "/itineraries" },
+              { label: "Where to Eat", href: "/guides/where-to-eat-porto" },
+              { label: "Wine Cellars", href: "/guides/port-wine-cellars-guide" },
+              { label: "Francesinha", href: "/guides/best-francesinha-porto" },
+              { label: "About", href: "/about" },
+            ].map((item) => (
               <Link
-                key={item}
-                href={`/${item.toLowerCase()}`}
+                key={item.href}
+                href={item.href}
                 className="text-[10px] font-sans font-medium tracking-[0.2em] uppercase text-stone-500 hover:text-stone-300 transition-colors"
               >
-                {item}
+                {item.label}
               </Link>
             ))}
           </div>
 
           <div className="flex items-center gap-5">
-            <a
-              href="#"
-              aria-label="Instagram"
-              className="text-stone-500 hover:text-stone-300 transition-colors"
-            >
-              <Instagram size={18} strokeWidth={1.5} />
-            </a>
-            <a
-              href="#"
-              aria-label="Newsletter"
-              className="text-stone-500 hover:text-stone-300 transition-colors"
-            >
-              <Send size={18} strokeWidth={1.5} />
-            </a>
+            {/* Social links removed — add back when real profiles exist */}
           </div>
         </div>
 

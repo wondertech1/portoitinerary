@@ -40,6 +40,13 @@ const jsonLd = {
   description:
     "A ranking of Porto's best francesinha restaurants, tested and compared.",
   url: "https://portoitinerary.com/guides/best-francesinha-porto",
+  datePublished: "2026-03-22",
+  dateModified: "2026-04-23",
+  author: {
+    "@type": "Person",
+    name: "Porto Itinerary",
+    url: "https://portoitinerary.com/about",
+  },
   publisher: {
     "@type": "Organization",
     name: "Porto Itinerary",
@@ -61,9 +68,9 @@ const related = [
     category: "Itinerary",
   },
   {
-    title: "Port Wine Cellars Guide",
-    description: "Complete guide to Gaia's best tours and tastings.",
-    href: "/guides/port-wine-cellars-guide",
+    title: "Port Wine for Beginners",
+    description: "What to drink after your francesinha — and what not to.",
+    href: "/guides/port-wine-tasting-beginners",
     category: "Wine Guide",
   },
 ];
@@ -72,6 +79,21 @@ export default function FrancesinhaPage() {
   return (
     <>
       <JsonLd data={jsonLd} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Best Francesinha in Porto — Ranked",
+          itemListOrder: "https://schema.org/ItemListOrderDescending",
+          numberOfItems: 8,
+          itemListElement: francesinhaSpots.map((spot) => ({
+            "@type": "ListItem",
+            position: spot.rank,
+            name: spot.name,
+            url: `https://portoitinerary.com/guides/best-francesinha-porto#${spot.name.toLowerCase().replace(/\s+/g, "-")}`,
+          })),
+        }}
+      />
       <Navigation />
       <main>
         <GuideHero
@@ -80,7 +102,6 @@ export default function FrancesinhaPage() {
           subtitle="8 spots ranked — we ate them all so you don't have to. (Though you should.)"
           lastVerified="March 2026"
           breadcrumbItems={[
-            { label: "Guides", href: "/guides/where-to-eat-porto" },
             { label: "Best Francesinha" },
           ]}
         />
@@ -237,9 +258,9 @@ export default function FrancesinhaPage() {
 
             <GuideCTA
               title="Include a Francesinha in Your Itinerary"
-              description="Our Porto itineraries include francesinha stops timed perfectly in your day."
-              buttonText="See Itineraries"
-              href="/itineraries"
+              description="The 1-day itinerary includes a francesinha lunch at Café Santiago — perfectly timed after the morning walk."
+              buttonText="See 1-Day Itinerary"
+              href="/1-day-porto-itinerary"
             />
 
             <FAQSection faqs={francesinhaFaqs} />

@@ -79,10 +79,10 @@ export const fiveDayItinerary = {
           name: "São Bento Station",
           neighborhood: "Baixa",
           description:
-            "Start at Porto's most beautiful train station, its entrance hall covered with 20,000 hand-painted azulejo tiles. Jorge Colaço spent 11 years (1905–1916) painting scenes from Portuguese history — battles, royal processions, and everyday life. Arrive before tour groups to appreciate the detail.",
+            "Day one of five — no rush. Use São Bento as your anchor point; you'll pass through this station repeatedly over the week. On this first visit, just absorb the scale: 20,000 tiles, 11 years of work, and stories that span centuries. You'll notice new details each time you walk through. Today, focus on the large battle panels. Save the quieter agricultural scenes along the bottom for a return visit.",
           duration: "20 min",
           cost: "Free",
-          tip: "The top-right panel shows the Battle of Valdevez (1140). The bottom panels depict rural Portuguese life and transportation through the ages.",
+          tip: "São Bento is your metro hub — you'll be back here for Day 4's Douro Valley train. Each visit, study a different wall.",
           image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80",
         },
         {
@@ -91,10 +91,10 @@ export const fiveDayItinerary = {
           name: "Clérigos Tower",
           neighborhood: "Vitória",
           description:
-            "Porto's 75-meter Baroque bell tower offers the definitive panoramic view. On clear days, the Atlantic is visible. The 240-step climb is narrow but manageable. The church below is free and features an impressive gilded altar.",
+            "Climb on Day 1 to map your entire five-day trip from above. From the top, pick out the landmarks you'll visit: Gaia's wine lodges (Day 2), the Foz coastline (Day 3), and the Douro river snaking east toward the valley you'll train through on Day 4. The church below is free and worth a separate visit — the gilded Baroque altar and organ are exquisite. You'll develop a relationship with this tower; it's visible from almost everywhere in Porto.",
           duration: "45 min",
           cost: "€8",
-          tip: "Buy online to skip the queue. Go early — by late morning the staircase queue stretches 30+ minutes.",
+          tip: "Take a photo from the top to reference throughout your trip — it helps orient you in Porto's winding streets.",
         },
         {
           time: "10:30 AM",
@@ -112,7 +112,7 @@ export const fiveDayItinerary = {
           name: "Ribeira District",
           neighborhood: "Ribeira",
           description:
-            "Descend through medieval lanes to the UNESCO-listed waterfront. The colorful townhouses stacked along the Douro are Porto's signature image. Walk the quay, watch the rabelo boats, and peek into Rua da Reboleira — one of the oldest streets in the city.",
+            "On a five-day trip, you'll pass through Ribeira multiple times — today is about getting your bearings. Walk the full length of the quay, note which restaurants look good for a future dinner, and find the quieter eastern end where locals fish in the evening. Don't eat here today; save the waterfront dinner for Day 3 or 5 when you know which spots are genuine.",
           duration: "45 min",
           cost: "Free",
         },
@@ -132,7 +132,7 @@ export const fiveDayItinerary = {
           name: "Igreja de São Francisco",
           neighborhood: "Ribeira",
           description:
-            "Europe's most gilded church interior — 300 kg of gold covering every surface. The Gothic exterior gives no hint of the Baroque explosion within. The catacombs below contain centuries of burials, including an eerie ossuary.",
+            "Europe's most gilded church interior — hundreds of kilograms of gold covering every surface. The Gothic exterior gives no hint of the Baroque explosion within. The catacombs below contain centuries of burials, including an eerie ossuary.",
           duration: "45 min",
           cost: "€9",
         },
@@ -152,7 +152,7 @@ export const fiveDayItinerary = {
           name: "Dom Luís I Bridge Walk",
           neighborhood: "Ribeira → Gaia",
           description:
-            "Cross the upper deck of the iconic iron bridge — the panorama is extraordinary from the middle. Walk slowly. Then take the lower deck back to Porto.",
+            "Today's crossing is a preview — you'll walk this bridge at least three more times during your five days, and each crossing feels different depending on the light and weather. Today, cross the upper deck slowly, look down at the Douro 45 meters below, and notice the metro gliding alongside you. Tomorrow you'll cross to Gaia with purpose; today is about the view.",
           duration: "30 min",
           cost: "Free",
         },
@@ -189,10 +189,10 @@ export const fiveDayItinerary = {
           name: "Taylor's Port Wine Cellar",
           neighborhood: "Vila Nova de Gaia",
           description:
-            "Begin at one of the oldest and most prestigious port houses. Taylor's self-guided audio tour walks you through centuries-old cellars explaining how port is made — from grape to glass. The tasting includes their signature LBV and aged tawnies. The terrace has the best cellar view in Gaia.",
+            "With a full day dedicated to wine, start at Taylor's and commit to the premium tasting. The self-guided audio tour builds understanding you'll use at every subsequent cellar: how port is fortified, why Gaia's climate matters for aging, and the difference between ruby and tawny styles. By the end, you'll taste the difference between a 10-year and 30-year tawny — and understand why it matters. The terrace rewards you with the best view in Gaia.",
           duration: "1.5 hrs",
           cost: "€15–€25",
-          tip: "The premium tasting (€25) includes their 20-year and 30-year tawnies — vastly superior to the standard tasting.",
+          tip: "The premium tasting (€25) is essential — it includes 20-year and 30-year tawnies that redefine what you think port wine is.",
           image: "https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&w=800&q=80",
         },
         {
@@ -201,7 +201,7 @@ export const fiveDayItinerary = {
           name: "Graham's Port Lodge",
           neighborhood: "Vila Nova de Gaia",
           description:
-            "Walk uphill to Graham's for a complementary tasting experience. Where Taylor's is refined and historical, Graham's is warmer and more intimate. Their Six Grapes Reserve is iconic. The terrace restaurant Vinum serves lunch with the best panorama in Gaia.",
+            "After Taylor's education, Graham's is the emotional counterpart. The guided tour is more personal — smaller groups, a guide who answers questions you now know to ask. Compare their Six Grapes Reserve to Taylor's LBV; the styles are distinctly different. You're building a palate today, not just ticking boxes.",
           duration: "1 hr",
           cost: "€15–€20",
         },
@@ -574,22 +574,22 @@ export const fiveDayItinerary = {
   ],
   related: [
     {
-      title: "3-Day Porto Itinerary",
-      description: "The classic Porto trip for most travelers.",
-      href: "/3-day-porto-itinerary",
-      category: "Itinerary",
-    },
-    {
-      title: "Port Wine Cellars Guide",
-      description: "Complete guide to Gaia's best tours and tastings.",
-      href: "/guides/port-wine-cellars-guide",
+      title: "Douro Valley Day Trip",
+      description: "The complete guide to Day 4 — trains, quintas, and viewpoints.",
+      href: "/guides/douro-valley-day-trip",
       category: "Wine Guide",
     },
     {
-      title: "Where to Eat in Porto",
-      description: "A local's guide to the best food across every neighborhood.",
-      href: "/guides/where-to-eat-porto",
-      category: "Food Guide",
+      title: "Port Wine for Beginners",
+      description: "Read before Day 2 — how to taste, what to order, what to buy.",
+      href: "/guides/port-wine-tasting-beginners",
+      category: "Wine Guide",
+    },
+    {
+      title: "Wine & Food Pairing",
+      description: "What to drink with every Porto dish across your 5 days.",
+      href: "/guides/porto-wine-food-pairing",
+      category: "Wine Guide",
     },
   ],
 };
