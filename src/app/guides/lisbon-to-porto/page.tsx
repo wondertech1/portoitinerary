@@ -106,7 +106,17 @@ export default function LisbonToPortoPage() {
                     It costs &euro;25-35, takes 2 hours 45 minutes, and drops you
                     at Porto Campanha with a direct metro connection to the city
                     center. I&apos;ve done this journey half a dozen times and the
-                    train has never let me down.
+                    train has never let me down. Not sure how long to spend in
+                    Lisbon before heading north? Our{" "}
+                    <a
+                      href="https://lisbonitinerary.com"
+                      target="_blank"
+                      rel="noopener"
+                      className="text-terracotta underline"
+                    >
+                      Lisbon itinerary guide
+                    </a>{" "}
+                    has day-by-day plans for 1&ndash;5 days in the capital.
                   </p>
                   <p className="text-stone-600 text-sm leading-relaxed mb-3">
                     <strong className="text-stone-800">On a budget?</strong>{" "}
@@ -398,6 +408,23 @@ export default function LisbonToPortoPage() {
                 ))}
               </div>
             </GuideSection>
+
+            <ProTip variant="tip">
+              If you have a free day in Lisbon before heading north, don&apos;t
+              spend it in the city &mdash; spend it in{" "}
+              <strong>Sintra</strong>. The palaces, the Moorish castle, and the
+              Atlantic views are unlike anything else in Portugal. We&apos;ve put
+              together a{" "}
+              <a
+                href="https://sintraitinerary.com/1-day-sintra-itinerary"
+                target="_blank"
+                rel="noopener"
+                className="text-terracotta underline"
+              >
+                Sintra 1-day itinerary
+              </a>{" "}
+              that covers the highlights without the midday crowds.
+            </ProTip>
 
             <GuideCTA
               title="Just Arrived in Porto?"

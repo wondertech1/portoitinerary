@@ -105,15 +105,43 @@ export default function PortoVsLisbonPage() {
             </GuideSection>
 
             <ProTip variant="tip">
-              The Alfa Pendular train between Lisbon and Porto takes 3 hours, costs €25-35, and runs 5+ times daily. Book at <strong>cp.pt</strong> for the best prices. First class is worth the €10 upgrade — wider seats, quieter car, and free coffee.
+              The Alfa Pendular train between Lisbon and Porto takes 3 hours, costs &euro;25-35, and runs 5+ times daily. Book at <strong>cp.pt</strong> for the best prices. First class is worth the &euro;10 upgrade &mdash; wider seats, quieter car, and free coffee. Planning your Lisbon days before the train north? Our{" "}
+              <a
+                href="https://lisbonitinerary.com"
+                target="_blank"
+                rel="noopener"
+                className="text-terracotta underline"
+              >
+                Lisbon itinerary guide
+              </a>{" "}
+              covers the best routes for 1&ndash;5 days in the capital.
             </ProTip>
 
             <GuideSection label="The Verdict" title="Final Score: Porto 3, Lisbon 2, Tie 3">
               <ScrollReveal>
                 <div className="text-stone-600 text-sm leading-relaxed space-y-3">
                   <p>Porto wins on cost, wine, and vibe. Lisbon wins on nightlife and beaches. Food, day trips, and architecture are genuine ties.</p>
-                  <p>But scores don&apos;t capture the feel. Porto is the friend who cooks you dinner at home — unpretentious, generous, and honest. Lisbon is the friend who takes you to the best restaurant in town — stylish, exciting, and a little more expensive. Both are worth your time.</p>
-                  <p>If you have a week, do both. If you have a long weekend, Porto gives you more per day — the city is compact, walkable, and the wine cellars, food, and waterfront can fill 3 days without feeling rushed.</p>
+                  <p>But scores don&apos;t capture the feel. Porto is the friend who cooks you dinner at home &mdash; unpretentious, generous, and honest. Lisbon is the friend who takes you to the best restaurant in town &mdash; stylish, exciting, and a little more expensive. Both are worth your time. For a deep dive on Lisbon, see the{" "}
+                    <a
+                      href="https://lisbonitinerary.com"
+                      target="_blank"
+                      rel="noopener"
+                      className="text-terracotta underline"
+                    >
+                      full Lisbon itinerary guide
+                    </a>.
+                  </p>
+                  <p>If you have a week, do both. If you have a long weekend, Porto gives you more per day &mdash; the city is compact, walkable, and the wine cellars, food, and waterfront can fill 3 days without feeling rushed. And if you end up spending a few extra days in Lisbon, add a half-day to{" "}
+                    <a
+                      href="https://sintraitinerary.com"
+                      target="_blank"
+                      rel="noopener"
+                      className="text-terracotta underline"
+                    >
+                      Sintra
+                    </a>{" "}
+                    &mdash; Lisbon&apos;s ace day trip and one of the most dramatic landscapes in Portugal.
+                  </p>
                 </div>
               </ScrollReveal>
             </GuideSection>
