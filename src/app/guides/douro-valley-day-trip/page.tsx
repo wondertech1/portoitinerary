@@ -1,3 +1,4 @@
+import ItineShowcase from "@/components/ItineShowcase";
 import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -10,7 +11,6 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
-import ItineShowcase from "@/components/ItineShowcase";
   transportOptions,
   quintas,
   douroFaqs,
