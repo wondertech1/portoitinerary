@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { transportOptions, faqs } from "@/data/guides/lisbon-to-porto";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -80,6 +81,7 @@ export default function LisbonToPortoPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

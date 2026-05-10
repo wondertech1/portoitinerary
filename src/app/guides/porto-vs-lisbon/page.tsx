@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto vs Lisbon 2026 — Which Should You Visit? (Honest Comparison) | Porto Itinerary",
@@ -63,6 +64,7 @@ export default function PortoVsLisbonPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Comparison" title="Porto vs Lisbon — Which Should You Visit?" subtitle="The honest answer: both. But if you have to choose, here's how they compare across 8 categories." lastVerified="April 2026" breadcrumbItems={[{ label: "Porto vs Lisbon" }]} />
         <div className="px-6">

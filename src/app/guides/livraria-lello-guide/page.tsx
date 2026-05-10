@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   visitInfo,
   tips,
   nearbyAttractions,
@@ -84,6 +85,7 @@ export default function LivrariaLelloGuidePage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Attraction Guide"

@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { organizedTours, selfGuidedRoutes, walkingTourFaqs } from "@/data/guides/walking-tours";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto Walking Tours 2026 — Free Tours & Self-Guided Routes | Porto Itinerary",
@@ -48,6 +49,7 @@ export default function WalkingToursPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

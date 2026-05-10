@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { neighborhoods, neighborhoodFaqs } from "@/data/guides/neighborhoods";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto Neighborhoods Guide 2026 — Where to Go & What to Expect | Porto Itinerary",
@@ -48,6 +49,7 @@ export default function NeighborhoodsPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

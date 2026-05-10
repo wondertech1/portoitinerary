@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   attractions,
   familyRestaurants,
   practicalTips,
@@ -117,6 +118,7 @@ export default function PortoWithKidsPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Family Guide"

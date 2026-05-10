@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { azulejoSpots, walkingRoute, azulejoFaqs } from "@/data/guides/azulejos";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Best Azulejo Tiles in Porto 2026 — A Walking Guide | Porto Itinerary",
@@ -62,6 +63,7 @@ export default function AzulejoTilesPage() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Culture Guide"

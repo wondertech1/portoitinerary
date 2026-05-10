@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { cafes, coffeeGlossary, faqs } from "@/data/guides/cafes";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -119,6 +120,7 @@ export default function BestCafesPage() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Food Guide"

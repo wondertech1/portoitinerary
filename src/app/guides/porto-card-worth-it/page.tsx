@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto Card 2026 — Is It Worth It? (We Did the Math) | Porto Itinerary",
@@ -51,6 +52,7 @@ export default function PortoCardPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Practical Guide" title="Porto Card — Is It Worth It?" subtitle="We did the math for 4 different traveler types. The answer isn't always yes." lastVerified="April 2026" breadcrumbItems={[{ label: "Porto Card" }]} />
         <div className="px-6">

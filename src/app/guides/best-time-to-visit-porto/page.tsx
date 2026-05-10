@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { months, bestTimeFaqs } from "@/data/guides/best-time";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Best Time to Visit Porto 2026 — Month-by-Month Guide | Porto Itinerary",
@@ -48,6 +49,7 @@ export default function BestTimePage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { markets, whatToBuy, faqs } from "@/data/guides/markets";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -118,6 +119,7 @@ export default function PortoMarketsGuidePage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

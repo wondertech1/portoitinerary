@@ -7,6 +7,7 @@ import PostcardNewsletter from "@/components/home/PostcardNewsletter";
 import PortoIntro from "@/components/home/PortoIntro";
 import RelatedContent from "@/components/shared/RelatedContent";
 import JsonLd from "@/components/shared/JsonLd";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
 
       <main>
         <PostcardRack />

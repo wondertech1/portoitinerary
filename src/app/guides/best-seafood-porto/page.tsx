@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Best Seafood in Porto 2026 — Matosinhos, Grilled Fish & Marisqueiras | Porto Itinerary",
@@ -46,6 +47,7 @@ export default function SeafoodPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Food Guide" title="Best Seafood in Porto 2026" subtitle="From Matosinhos charcoal grills to Michelin-starred ocean views — Porto's Atlantic kitchen." lastVerified="April 2026" breadcrumbItems={[{ label: "Seafood" }]} />
         <div className="px-6">

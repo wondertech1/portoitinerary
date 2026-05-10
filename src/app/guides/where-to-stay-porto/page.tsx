@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { accommodationByArea, stayFaqs } from "@/data/guides/where-to-stay";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Where to Stay in Porto 2026 — Best Neighborhoods & Hotels | Porto Itinerary",
@@ -48,6 +49,7 @@ export default function WhereToStayPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

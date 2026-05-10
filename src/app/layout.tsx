@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, Homemade_Apple } from "next/font/google";
 import Script from "next/script";
 import JsonLd from "@/components/shared/JsonLd";
+import ItineTopBanner from "@/components/ItineTopBanner";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -79,6 +80,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${cormorant.variable} ${inter.variable} ${homemadeApple.variable} antialiased`}>
+        <ItineTopBanner />
         <JsonLd
           data={{
             "@context": "https://schema.org",

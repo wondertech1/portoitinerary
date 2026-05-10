@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { transportModes, andanteCard, portoCard, gettingAroundFaqs } from "@/data/guides/getting-around";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Getting Around Porto 2026 — Metro, Bus, Tram & Walking Guide | Porto Itinerary",
@@ -48,6 +49,7 @@ export default function GettingAroundPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { portWineTypes } from "@/data/guides/wine-cellars";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -181,6 +182,7 @@ export default function PortWineBeginnersPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Wine Guide"

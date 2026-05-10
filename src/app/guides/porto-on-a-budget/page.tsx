@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   dailyBudgets,
   freeActivities,
   moneySavingTips,
@@ -102,6 +103,7 @@ export default function PortoOnABudgetPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   festivalInfo,
   traditions,
   practicalTips,
@@ -116,6 +117,7 @@ export default function SaoJoaoPage() {
         <JsonLd key={i} data={data} />
       ))}
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Festival Guide"

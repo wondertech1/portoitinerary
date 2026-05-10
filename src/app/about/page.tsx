@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/shared/JsonLd";
 import Breadcrumb from "@/components/shared/Breadcrumb";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "About Porto Itinerary — Who We Are | Porto Itinerary",
@@ -47,6 +48,7 @@ export default function AboutPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         {/* Hero */}
         <section className="pt-32 pb-16 px-6">

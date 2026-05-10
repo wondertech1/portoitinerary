@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto Hidden Gems 2026 — 12 Places Most Tourists Miss | Porto Itinerary",
@@ -51,6 +52,7 @@ export default function HiddenGemsPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Exploration" title="Porto Hidden Gems — 12 Places Most Tourists Miss" subtitle="The Porto that exists between the top-10 attractions. No Clérigos Tower. No Ribeira quay. Just the city itself." lastVerified="April 2026" breadcrumbItems={[{ label: "Hidden Gems" }]} />
         <div className="px-6">

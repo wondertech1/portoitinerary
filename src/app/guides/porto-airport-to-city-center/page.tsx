@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   transferOptions,
   metroStepByStep,
   airportTransferFaqs,
@@ -85,6 +86,7 @@ export default function AirportTransferPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

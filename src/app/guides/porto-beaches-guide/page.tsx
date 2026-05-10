@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Best Beaches Near Porto 2026 — From Foz to Matosinhos & Beyond | Porto Itinerary",
@@ -45,6 +46,7 @@ export default function BeachesPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Practical Guide" title="Best Beaches Near Porto 2026" subtitle="Porto isn't a beach city — but the beaches nearby are better than most travelers expect." lastVerified="April 2026" breadcrumbItems={[{ label: "Beaches" }]} />
         <div className="px-6">

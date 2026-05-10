@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { pairings, pairingFaqs } from "@/data/guides/wine-food-pairing";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -85,6 +86,7 @@ export default function WineFoodPairingPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Wine Guide"

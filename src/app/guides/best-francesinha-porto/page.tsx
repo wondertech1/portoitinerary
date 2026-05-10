@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import {
+import ItineShowcase from "@/components/ItineShowcase";
   francesinhaHistory,
   francesinhaSpots,
   francesinhaFaqs,
@@ -95,6 +96,7 @@ export default function FrancesinhaPage() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Food Guide"

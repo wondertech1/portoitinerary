@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { viewpoints, viewpointFaqs } from "@/data/guides/viewpoints";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "7 Best Viewpoints in Porto 2026 — Miradouros Ranked | Porto Itinerary",
@@ -62,6 +63,7 @@ export default function ViewpointsPage() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Practical Guide"

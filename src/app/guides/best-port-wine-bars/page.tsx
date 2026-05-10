@@ -10,6 +10,7 @@ import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
 import { wineBars, wineBarFaqs } from "@/data/guides/wine-bars";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
@@ -91,6 +92,7 @@ export default function PortWineBarsPage() {
         }}
       />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero
           category="Wine Guide"

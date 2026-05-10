@@ -7,6 +7,7 @@ import Breadcrumb from "@/components/shared/Breadcrumb";
 import JsonLd from "@/components/shared/JsonLd";
 import PostmarkStamp from "@/components/decorative/PostmarkStamp";
 import { ArrowRight } from "lucide-react";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Porto Itineraries 2026 — 1, 3 & 5 Day Plans | Porto Itinerary",
@@ -101,6 +102,7 @@ export default function ItinerariesPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <section className="pt-28 pb-12 sm:pt-32 sm:pb-16 px-6">
           <div className="mx-auto max-w-4xl">

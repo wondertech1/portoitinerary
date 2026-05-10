@@ -9,6 +9,7 @@ import GuideCTA from "@/components/shared/GuideCTA";
 import ProTip from "@/components/shared/ProTip";
 import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/ScrollReveal";
+import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title: "Is Porto Safe? 2026 Safety Guide for Tourists | Porto Itinerary",
@@ -49,6 +50,7 @@ export default function SafetyPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navigation />
+      <ItineShowcase />
       <main>
         <GuideHero category="Practical Guide" title="Is Porto Safe?" subtitle="Yes — it's one of Europe's safest cities. But cobblestones will get you if port wine doesn't." lastVerified="April 2026" breadcrumbItems={[{ label: "Safety Guide" }]} />
         <div className="px-6">
