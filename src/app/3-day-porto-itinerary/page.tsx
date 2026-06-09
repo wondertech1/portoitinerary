@@ -5,7 +5,7 @@ import { threeDayItinerary } from "@/data/itineraries/3-day";
 
 export const metadata: Metadata = {
   title:
-    "3-Day Porto Itinerary 2026 — The Classic Route (Tested by Locals) | Porto Itinerary",
+    "3-Day Porto Itinerary 2026 — The Classic Route (Tested by Locals)",
   description:
     "Three days in Porto done right: historic center and Ribeira, Gaia wine cellars and Foz coast, then Bolhão Market and Cedofeita. Day-by-day plan with times, restaurants & budget breakdown.",
   alternates: {

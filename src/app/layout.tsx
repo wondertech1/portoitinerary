@@ -30,8 +30,8 @@ const homemadeApple = Homemade_Apple({
 export const metadata: Metadata = {
   metadataBase: new URL("https://portoitinerary.com"),
   title: {
-    default: "Porto Itinerary — Your Complete Porto Travel Guide 2026",
-    template: "%s | Porto Itinerary",
+    default: "Porto Itinerary — Your Complete Porto Travel Guide",
+    template: "%s",
   },
   description:
     "Porto travel guide with day-by-day itineraries, restaurant picks, wine cellar tours, and neighborhood guides. Every recommendation personally tested.",

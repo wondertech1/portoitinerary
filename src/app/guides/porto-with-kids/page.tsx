@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto with Kids 2026 \u2014 Family-Friendly Attractions & Tips | Porto Itinerary",
+    "Porto with Kids 2026 \u2014 Family-Friendly Attractions & Tips",
   description:
     "Tested family guide to Porto with kids in 2026. Best attractions by age, stroller vs carrier advice, family restaurants, and a sample day plan from parents who\u2019ve done it three times.",
   alternates: {

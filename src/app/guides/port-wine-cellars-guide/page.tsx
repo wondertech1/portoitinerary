@@ -15,7 +15,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Port Wine Cellars in Porto 2026 — Complete Guide to Gaia's Best Tours | Porto Itinerary",
+    "Port Wine Cellars in Porto 2026 — Complete Guide to Gaia's Best Tours",
   description:
     "Complete guide to port wine cellars in Vila Nova de Gaia for 2026. Taylor's, Graham's, Ferreira & more — tour prices, what's included, and which cellar is best for you.",
   alternates: {

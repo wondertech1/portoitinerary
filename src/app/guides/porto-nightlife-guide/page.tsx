@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto Nightlife Guide 2026 — Best Bars, Fado & Late-Night Spots | Porto Itinerary",
+    "Porto Nightlife Guide 2026 — Best Bars, Fado & Late-Night Spots",
   description:
     "The best bars, fado houses, and nightlife areas in Porto for 2026. From Galerias de Paris bar-hopping to intimate fado, with timing tips, dress code, and local recommendations.",
   alternates: {

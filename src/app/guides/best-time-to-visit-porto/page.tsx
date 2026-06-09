@@ -13,7 +13,7 @@ import { months, bestTimeFaqs } from "@/data/guides/best-time";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Best Time to Visit Porto 2026 — Month-by-Month Guide | Porto Itinerary",
+  title: "Best Time to Visit Porto 2026 — Month-by-Month Guide",
   description:
     "When is the best time to visit Porto? Month-by-month breakdown of weather, crowds, prices, and festivals. May and September are best — here's why.",
   alternates: { canonical: "https://portoitinerary.com/guides/best-time-to-visit-porto" },

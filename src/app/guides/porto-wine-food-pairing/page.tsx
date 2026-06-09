@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Porto Wine & Food Pairing Guide 2026 — What to Drink with What You Eat | Porto Itinerary",
+    "Porto Wine & Food Pairing Guide 2026 — What to Drink with What You Eat",
   description:
     "Which wine goes with which Porto dish? Port wine with chocolate, vinho verde with sardines, and why you should never pair port with a francesinha. Complete pairing guide for 2026.",
   alternates: {

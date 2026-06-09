@@ -13,7 +13,7 @@ import { accommodationByArea, stayFaqs } from "@/data/guides/where-to-stay";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Where to Stay in Porto 2026 — Best Neighborhoods & Hotels | Porto Itinerary",
+  title: "Where to Stay in Porto 2026 — Best Neighborhoods & Hotels",
   description:
     "Where to stay in Porto by neighborhood and budget. Vitória for first-timers, Cedofeita for creatives, Gaia for wine lovers — with hotel picks at every price point for 2026.",
   alternates: { canonical: "https://portoitinerary.com/guides/where-to-stay-porto" },

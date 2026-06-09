@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto Card 2026 — Is It Worth It? (We Did the Math) | Porto Itinerary",
+  title: "Porto Card 2026 — Is It Worth It? (We Did the Math)",
   description: "Is the Porto Card worth buying in 2026? We break down the cost, what's included, and do the day-by-day math for 1, 2, 3, and 4-day cards. Honest verdict inside.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-card-worth-it" },
   openGraph: { title: "Porto Card 2026 — Is It Worth It?", description: "Day-by-day math on whether the Porto Card saves money. Spoiler: it depends on your itinerary.", url: "https://portoitinerary.com/guides/porto-card-worth-it", siteName: "Porto Itinerary", type: "article" },

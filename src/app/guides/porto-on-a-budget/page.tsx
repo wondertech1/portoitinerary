@@ -20,7 +20,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto on a Budget 2026 — How Much Does Porto Cost? | Porto Itinerary",
+    "Porto on a Budget 2026 — How Much Does Porto Cost?",
   description:
     "Realistic daily budgets for Porto in 2026, from backpacker to comfort. Free activities, cheap eats, and money-saving tips from someone who spent 5 days for under €300.",
   alternates: {

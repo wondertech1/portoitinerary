@@ -4,7 +4,7 @@ import JsonLd from "@/components/shared/JsonLd";
 import { twoDayItinerary } from "@/data/itineraries/2-day";
 
 export const metadata: Metadata = {
-  title: "2-Day Porto Itinerary 2026 — The Perfect Weekend (Locally Tested) | Porto Itinerary",
+  title: "2-Day Porto Itinerary 2026 — The Perfect Weekend (Locally Tested)",
   description:
     "A 2-day Porto itinerary that covers the essentials without rushing. Historic center, port wine cellars, Ribeira waterfront, and Foz coast. Day-by-day with times and costs.",
   alternates: { canonical: "https://portoitinerary.com/2-day-porto-itinerary" },

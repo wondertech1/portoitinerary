@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Port Wine for Beginners — How to Taste, What to Order, What to Buy | Porto Itinerary",
+    "Port Wine for Beginners — How to Taste, What to Order, What to Buy",
   description:
     "A beginner's guide to port wine: Ruby vs Tawny, how to taste step by step, what to order at a cellar, and the best bottles to bring home from Porto in 2026.",
   alternates: {

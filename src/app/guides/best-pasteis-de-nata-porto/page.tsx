@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Best Past\u00E9is de Nata in Porto 2026 \u2014 6 Bakeries Ranked | Porto Itinerary",
+    "Best Past\u00E9is de Nata in Porto 2026 \u2014 6 Bakeries Ranked",
   description:
     "We ate 20+ past\u00E9is de nata across Porto and ranked the 6 best bakeries. Manteigaria, Nata Lisboa, Confeitaria do Bolh\u00E3o and more \u2014 with prices, hours, and honest verdicts for 2026.",
   alternates: {

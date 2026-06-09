@@ -7,7 +7,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "About Porto Itinerary — Who We Are | Porto Itinerary",
+  title: "About Porto Itinerary — Who We Are",
   description:
     "Porto Itinerary is an independent travel guide built by people who live, eat, and drink their way through Porto. Every recommendation is personally tested.",
   alternates: {

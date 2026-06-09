@@ -13,7 +13,7 @@ import { transportModes, andanteCard, portoCard, gettingAroundFaqs } from "@/dat
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Getting Around Porto 2026 — Metro, Bus, Tram & Walking Guide | Porto Itinerary",
+  title: "Getting Around Porto 2026 — Metro, Bus, Tram & Walking Guide",
   description:
     "How to get around Porto by metro, bus, tram, and on foot. Andante card explained, Porto Card breakdown, and honest advice on when to walk vs. ride for 2026.",
   alternates: { canonical: "https://portoitinerary.com/guides/getting-around-porto" },

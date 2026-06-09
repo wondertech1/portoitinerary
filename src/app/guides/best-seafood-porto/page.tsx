@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Best Seafood in Porto 2026 — Matosinhos, Grilled Fish & Marisqueiras | Porto Itinerary",
+  title: "Best Seafood in Porto 2026 — Matosinhos, Grilled Fish & Marisqueiras",
   description: "Where to eat the best seafood in Porto and Matosinhos. Grilled fish, octopus, seafood rice, and the freshest catch — with prices, what to order, and which restaurants are worth the trip.",
   alternates: { canonical: "https://portoitinerary.com/guides/best-seafood-porto" },
   openGraph: { title: "Best Seafood in Porto 2026", description: "From Matosinhos grilled fish to Ribeira octopus — Porto's best seafood ranked.", url: "https://portoitinerary.com/guides/best-seafood-porto", siteName: "Porto Itinerary", type: "article" },

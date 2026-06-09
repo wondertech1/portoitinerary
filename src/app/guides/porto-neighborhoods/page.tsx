@@ -13,7 +13,7 @@ import { neighborhoods, neighborhoodFaqs } from "@/data/guides/neighborhoods";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto Neighborhoods Guide 2026 — Where to Go & What to Expect | Porto Itinerary",
+  title: "Porto Neighborhoods Guide 2026 — Where to Go & What to Expect",
   description:
     "A local's guide to Porto's 7 best neighborhoods. Ribeira, Cedofeita, Foz, Gaia, Bonfim and more — with what to eat, what to see, and where to stay in each.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-neighborhoods" },

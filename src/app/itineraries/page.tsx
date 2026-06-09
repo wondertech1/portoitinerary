@@ -10,7 +10,7 @@ import { ArrowRight } from "lucide-react";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto Itineraries 2026 — 1, 3 & 5 Day Plans | Porto Itinerary",
+  title: "Porto Itineraries 2026 — 1, 3 & 5 Day Plans",
   description:
     "How many days do you need in Porto? Choose from 1-day, 2-day, 3-day, and 5-day itineraries with exact times, costs, and restaurant picks for every meal.",
   alternates: {

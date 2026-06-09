@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Best Port Wine Bars in Porto 2026 — 6 Spots for Tasting Without a Tour | Porto Itinerary",
+    "Best Port Wine Bars in Porto 2026 — 6 Spots for Tasting Without a Tour",
   description:
     "The best wine bars in Porto for port wine tasting without a cellar tour. Prova, Wine Quay Bar, Espaço Porto Cruz and more — with prices, vibes, and what to order in 2026.",
   alternates: {

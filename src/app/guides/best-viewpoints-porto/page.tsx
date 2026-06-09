@@ -13,7 +13,7 @@ import { viewpoints, viewpointFaqs } from "@/data/guides/viewpoints";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "7 Best Viewpoints in Porto 2026 — Miradouros Ranked | Porto Itinerary",
+  title: "7 Best Viewpoints in Porto 2026 — Miradouros Ranked",
   description:
     "The best viewpoints and miradouros in Porto, ranked. Clérigos Tower, Miradouro da Vitória, Jardim do Morro, Serra do Pilar and more — with best times, photo tips, and access info for 2026.",
   alternates: { canonical: "https://portoitinerary.com/guides/best-viewpoints-porto" },

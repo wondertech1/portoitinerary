@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto to Aveiro Day Trip 2026 \u2014 Portugal\u2019s Venice | Porto Itinerary",
+    "Porto to Aveiro Day Trip 2026 \u2014 Portugal\u2019s Venice",
   description:
     "How to visit Aveiro from Porto in one day. Train times, moliceiro boats, ovos moles, Costa Nova striped houses, and a complete hour-by-hour itinerary for 2026.",
   alternates: {

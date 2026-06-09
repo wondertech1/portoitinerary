@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Livraria Lello Guide 2026 — Porto's Famous Bookshop | Porto Itinerary",
+    "Livraria Lello Guide 2026 — Porto's Famous Bookshop",
   description:
     "How to visit Livraria Lello without the crowds. Tickets, best time, photo tips, the Harry Potter connection, and whether it's worth the €8 entry — honest take.",
   alternates: {

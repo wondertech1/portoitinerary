@@ -13,7 +13,7 @@ import { organizedTours, selfGuidedRoutes, walkingTourFaqs } from "@/data/guides
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto Walking Tours 2026 — Free Tours & Self-Guided Routes | Porto Itinerary",
+  title: "Porto Walking Tours 2026 — Free Tours & Self-Guided Routes",
   description:
     "Honest guide to Porto's best walking tours — free tip-based tours, food tours, alternative tours, and 5 self-guided routes with stops, distances, and timing.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-free-walking-tours" },

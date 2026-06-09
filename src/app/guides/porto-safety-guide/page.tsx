@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Is Porto Safe? 2026 Safety Guide for Tourists | Porto Itinerary",
+  title: "Is Porto Safe? 2026 Safety Guide for Tourists",
   description: "Is Porto safe for tourists in 2026? Yes — it's one of Europe's safest cities. Here's what to know about neighborhoods, scams, solo travel, nightlife safety, and emergency contacts.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-safety-guide" },
   openGraph: { title: "Is Porto Safe? 2026 Safety Guide", description: "Porto is one of Europe's safest cities. Here's what to actually watch out for.", url: "https://portoitinerary.com/guides/porto-safety-guide", siteName: "Porto Itinerary", type: "article" },

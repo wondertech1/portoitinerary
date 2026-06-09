@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto Hidden Gems 2026 — 12 Places Most Tourists Miss | Porto Itinerary",
+  title: "Porto Hidden Gems 2026 — 12 Places Most Tourists Miss",
   description: "The Porto spots that don't make the top-10 lists. From cliffside Fontainhas to a secret viewpoint, a church made of bones, and the street where Porto artists live.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-hidden-gems" },
   openGraph: { title: "Porto Hidden Gems 2026 — 12 Places Most Tourists Miss", description: "Beyond Ribeira and Clérigos — the Porto that locals love and guidebooks skip.", url: "https://portoitinerary.com/guides/porto-hidden-gems", siteName: "Porto Itinerary", type: "article" },

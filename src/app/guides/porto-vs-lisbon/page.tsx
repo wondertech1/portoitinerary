@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Porto vs Lisbon 2026 — Which Should You Visit? (Honest Comparison) | Porto Itinerary",
+  title: "Porto vs Lisbon 2026 — Which Should You Visit? (Honest Comparison)",
   description:
     "Porto vs Lisbon: an honest comparison covering cost, food, wine, nightlife, beaches, and vibe. Which Portuguese city is right for your trip in 2026?",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-vs-lisbon" },

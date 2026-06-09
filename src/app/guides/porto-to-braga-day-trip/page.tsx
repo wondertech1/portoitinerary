@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto to Braga Day Trip 2026 \u2014 Bom Jesus & Historic Center | Porto Itinerary",
+    "Porto to Braga Day Trip 2026 \u2014 Bom Jesus & Historic Center",
   description:
     "How to visit Braga from Porto in one day. Train times, Bom Jesus do Monte stairway, the oldest cathedral in Portugal, and a complete hour-by-hour itinerary for 2026.",
   alternates: {

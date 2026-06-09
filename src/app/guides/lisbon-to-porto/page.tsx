@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Lisbon to Porto 2026 — Train, Bus, Flight & Car Compared | Porto Itinerary",
+    "Lisbon to Porto 2026 — Train, Bus, Flight & Car Compared",
   description:
     "How to get from Lisbon to Porto in 2026. Alfa Pendular train vs bus vs flight vs rental car — prices, times, stations, and which option is best for you.",
   alternates: {

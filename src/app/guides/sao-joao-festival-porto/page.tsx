@@ -20,7 +20,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "S\u00e3o Jo\u00e3o Festival Porto 2026 \u2014 The Ultimate Guide | Porto Itinerary",
+    "S\u00e3o Jo\u00e3o Festival Porto 2026 \u2014 The Ultimate Guide",
   description:
     "How to survive S\u00e3o Jo\u00e3o, Porto\u2019s wildest night. Sardines, plastic hammers, fireworks over the Douro, and dancing until sunrise. Practical tips for June 23-24, 2026.",
   alternates: {

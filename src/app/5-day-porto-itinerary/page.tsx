@@ -5,7 +5,7 @@ import { fiveDayItinerary } from "@/data/itineraries/5-day";
 
 export const metadata: Metadata = {
   title:
-    "5-Day Porto Itinerary 2026 — The Deep Dive (Beyond the Tourist Trail) | Porto Itinerary",
+    "5-Day Porto Itinerary 2026 — The Deep Dive (Beyond the Tourist Trail)",
   description:
     "Five days in Porto goes beyond the highlights: historic center, wine cellars, Foz coast, a Douro Valley train ride, and the neighborhoods most visitors skip. Full day-by-day plan.",
   alternates: {

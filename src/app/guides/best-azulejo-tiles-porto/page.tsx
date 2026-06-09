@@ -13,7 +13,7 @@ import { azulejoSpots, walkingRoute, azulejoFaqs } from "@/data/guides/azulejos"
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Best Azulejo Tiles in Porto 2026 — A Walking Guide | Porto Itinerary",
+  title: "Best Azulejo Tiles in Porto 2026 — A Walking Guide",
   description:
     "The 7 best azulejo tile spots in Porto, ranked and mapped as a walking route. Sao Bento Station, Igreja do Carmo, Capela das Almas and more — with history, photo tips, and access info for 2026.",
   alternates: { canonical: "https://portoitinerary.com/guides/best-azulejo-tiles-porto" },

@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto to Guimar\u00E3es Day Trip 2026 \u2014 Birthplace of Portugal | Porto Itinerary",
+    "Porto to Guimar\u00E3es Day Trip 2026 \u2014 Birthplace of Portugal",
   description:
     "How to visit Guimar\u00E3es from Porto in one day. Train times, the castle where Portugal was born, Penha cable car, medieval streets, and a complete hour-by-hour itinerary for 2026.",
   alternates: {

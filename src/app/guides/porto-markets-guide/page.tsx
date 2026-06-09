@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Porto Markets Guide 2026 — Bolhao, Food Halls & Flea Markets | Porto Itinerary",
+    "Porto Markets Guide 2026 — Bolhao, Food Halls & Flea Markets",
   description:
     "Complete guide to Porto's best markets in 2026 — Mercado do Bolhao, Bom Sucesso food hall, Saturday flea markets, and what souvenirs to buy. With hours, tips, and first-hand recommendations.",
   alternates: {

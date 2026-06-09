@@ -18,7 +18,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Douro Valley Day Trip from Porto 2026 — Train, Wineries & Complete Guide | Porto Itinerary",
+    "Douro Valley Day Trip from Porto 2026 — Train, Wineries & Complete Guide",
   description:
     "How to visit the Douro Valley from Porto in one day. Train vs car vs tour comparison, best quintas to visit, where to eat, and a complete timeline for 2026.",
   alternates: {

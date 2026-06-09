@@ -18,7 +18,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Porto Airport to City Center 2026 — Metro, Taxi & Transfer Guide | Porto Itinerary",
+    "Porto Airport to City Center 2026 — Metro, Taxi & Transfer Guide",
   description:
     "How to get from Porto airport (Francisco Sá Carneiro) to the city center in 2026. Metro, Uber, taxi, bus, and private transfer compared — with prices, times, and step-by-step instructions.",
   alternates: {

@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
-  title: "Best Beaches Near Porto 2026 — From Foz to Matosinhos & Beyond | Porto Itinerary",
+  title: "Best Beaches Near Porto 2026 — From Foz to Matosinhos & Beyond",
   description: "The best beaches near Porto: Matosinhos (metro-accessible), Foz do Douro, Miramar, and Costa Nova. Which beach to visit, how to get there, and what to expect in 2026.",
   alternates: { canonical: "https://portoitinerary.com/guides/porto-beaches-guide" },
   openGraph: { title: "Best Beaches Near Porto 2026", description: "From city-accessible Matosinhos to the striped houses of Costa Nova — Porto's best beaches ranked.", url: "https://portoitinerary.com/guides/porto-beaches-guide", siteName: "Porto Itinerary", type: "article" },

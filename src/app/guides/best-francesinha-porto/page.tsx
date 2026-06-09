@@ -18,7 +18,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Best Francesinha in Porto 2026 — 8 Spots Ranked (We Ate Them All) | Porto Itinerary",
+    "Best Francesinha in Porto 2026 — 8 Spots Ranked (We Ate Them All)",
   description:
     "We ate francesinhas at 8 Porto restaurants and ranked them. Café Santiago, Bufete Fase, Lado B and more — with sauce reviews, prices, and what to order in 2026.",
   alternates: {

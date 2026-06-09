@@ -5,7 +5,7 @@ import { oneDayItinerary } from "@/data/itineraries/1-day";
 
 export const metadata: Metadata = {
   title:
-    "1-Day Porto Itinerary 2026 — The Perfect Day (Locally Tested) | Porto Itinerary",
+    "1-Day Porto Itinerary 2026 — The Perfect Day (Locally Tested)",
   description:
     "The perfect 1-day Porto itinerary: São Bento, Clérigos Tower, Ribeira waterfront, port wine in Gaia, sunset at Jardim do Morro. Exact times, costs & restaurant picks.",
   alternates: {

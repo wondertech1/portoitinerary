@@ -14,7 +14,7 @@ import ItineShowcase from "@/components/ItineShowcase";
 
 export const metadata: Metadata = {
   title:
-    "Best Cafes in Porto 2026 \u2014 From Historic to Specialty Coffee | Porto Itinerary",
+    "Best Cafes in Porto 2026 \u2014 From Historic to Specialty Coffee",
   description:
     "The best cafes in Porto for 2026, from Belle \u00C9poque landmarks to specialty roasters. With coffee glossary, prices, and honest opinions on what\u2019s worth your time.",
   alternates: {

@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Where to Eat in Porto 2026 — A Local's Guide to the Best Food | Porto Itinerary",
+    "Where to Eat in Porto 2026 — A Local's Guide to the Best Food",
   description:
     "The best restaurants in Porto, organized by neighborhood. From francesinha spots to Michelin-starred dining, with what to order at each place and what to skip.",
   alternates: {
